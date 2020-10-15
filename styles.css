@@ -1,0 +1,75 @@
+h1{
+Background: linear-gradient(to right, WHite , magenta, green, cyan, red);
+animation: rainbow_animation 6s linear infinite;
+background-size: 400% 100%;
+} p {
+    Color:purple;
+}
+h5 {
+    color:green;
+}
+h4{
+    color:gold;
+}
+
+h3{
+    color:white;
+}
+h2{
+    color:pink;
+}
+
+@keyframes rainbow_animation {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}h2{
+Background: linear-gradient(to right, royalblue , crimson, purple, gold, lime);
+animation: rainbow_animation 6s linear infinite;
+background-size: 400% 100%;
+} p {
+    Color:purple;
+}
+h5 {
+    color:green;
+}
+h4{
+    color:gold;
+}
+
+h3{
+    color:white;
+}
+h2{
+    color:pink;
+}
+
+@keyframes rainbow_animation {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+img {
+
+    border-style: solid;
+}
+body{
+    background-color:black;
+}
+body{
+    text-align:center;
+}
